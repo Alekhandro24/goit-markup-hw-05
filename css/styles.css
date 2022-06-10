@@ -307,17 +307,25 @@ img {
     position: absolute;
     top: 8px;
     right: 8px;
-    
-    fill: #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
     background-color: inherit;
     padding: 6px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-
+         
     cursor: pointer;
 
 } 
 
+.modal-button-icon {
+    fill: #000000;
+}
 
 .button:hover,
 .button:focus{
