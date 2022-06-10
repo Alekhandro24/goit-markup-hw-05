@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
+    <header>
         <div class="container header-page">
             <nav class="page-nav">
                 <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
@@ -43,8 +43,9 @@
                     <button type="button" class="button" data-modal-open>Заказать услугу</button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
-                            <p></p>
-                            <button class="modal-button" data-modal-close>X</button>
+                            <svg class="modal-button" width="30" height="30" data-modal-close>
+                                <use href="./images/icons.svg#close-black"></use>
+                            </svg> 
                         </div>
                     </div>
                 </div>
@@ -102,21 +103,15 @@
                 <ul class="work-list list">
                     <li class="item">
                         <img src="./images/box1.jpg" alt="парень печатает код на компе" width="370" height="294">
-                        <div class="overfoto">
-                            <p class="desktop-text">Десктопные приложения</p>
-                        </div>
+                        <p class="work-test">Десктопные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./images/box2.jpg" alt="девушка проверяет макеты" width="370" height="294">
-                        <div class="overfoto">
-                            <p class="mob-text">Мобильные приложения</p>
-                        </div>
+                        <p class="work-test">Мобильные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./images/box3.jpg" alt="девушка выбирает цвет на планшете" width="370" height="294">
-                        <div class="overfoto">
-                            <p class="design-text">Дизайнерские решения</p>
-                        </div>
+                        <p class="work-test">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
@@ -297,7 +292,7 @@
                 <a href="./index.html" class="logo footer-logo"><span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span></a>
                 <address>
                     <ul class="footer-nav list">
-                        <li class="item-footer"><a href="https://goo.gl/maps/fRvEZG4Noj5iUwEC7" target="_blank" rel="nofollow noopener noreferrer" class="link"><span class="footer-span">г. Киев, пр-т Леси Украинки, 26</span></a></li>
+                        <li class="item-footer"><a href="https://goo.gl/maps/fRvEZG4Noj5iUwEC7" target="_blank" rel="nofollow noopener noreferrer" class="link">г. Киев, пр-т Леси Украинки, 26</a></li>
                         <li class="item-footer"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
                         <li class="item-footer"><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
                     </ul>
