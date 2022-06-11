@@ -643,10 +643,10 @@ img {
 
 }
 
-.footer-nav .footer-span:hover,
+/* .footer-nav .footer-span:hover,
 .footer-nav .footer-span:focus {
     color: var(--accent-color);
-} 
+}  */
 
 
 .footer-nav.list {
